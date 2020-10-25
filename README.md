@@ -1,8 +1,8 @@
-# Workaround solution for Postman to work and refresh Oauth2/OpenId tokens
+# Workaround solution for Postman to deal with and refresh Oauth2/OpenId tokens
 
 ### Problem: https://github.com/postmanlabs/postman-app-support/issues/8231
 
-This server is exposing 2 endponts:
+This server is exposing 2 endpoints:
 - http://localhost:1991/api/cred/tokens -> To get id and access tokens
 - http://localhost:1991/api/cred/tokens/almost-stale -> To get info whether you need to update tokens (+ exp time)
 
