@@ -21,7 +21,7 @@ TARGET_ADDRESS=(site where tokens are stored in local storage as accessToken and
 Getting started:
 - npm install
 - npm start
-- Copy and paste pre-request script in postmand corresponding section (./postman/pm.pre-script.js)
+- Copy and paste pre-request script in postman corresponding section (./postman/pm.pre-script.js)
 - Enjoy
 
 Caveates:
