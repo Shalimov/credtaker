@@ -1,0 +1,22 @@
+{
+  "name": "credtaker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "node ./server"
+  },
+  "author": "igor.shalimov",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "chalk": "^4.1.0",
+    "chromedriver": "^86.0.0",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-logger": "^3.2.1",
+    "ms": "^2.1.2",
+    "puppeteer": "^5.4.0"
+  }
+}
