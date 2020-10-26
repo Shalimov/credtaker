@@ -7,13 +7,13 @@ function requestTokens() {
       const { accessToken, idToken } = result.json();
       
       // set global variables
-      pm.globals.set('accessToken', accessToken);
-      pm.globals.set('idToken', idToken);
+      pm.globals.set('access-token', accessToken);
+      pm.globals.set('id-token', idToken);
   });
 }
 
 function needToUpdateExistingTokens() {
-  const accessToken = pm.globals.get('accessToken');
+  const accessToken = pm.globals.get('access-token');
   
   if (!accessToken) {
       return true;
